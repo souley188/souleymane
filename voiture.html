@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+        <title>AutoPro</title>
+        <link rel="stylesheet" href="voiture.css">
+    </head>
+    <body>
+        <section> 
+            
+            <!-- header  -->
+    <header>
+                <!-- menu responsive -->
+                
+                <div class="menu_toggle">
+                    <span></span>
+                </div>
+                
+                <div class="logo">
+                    <p class="place"><span>Kappi</span>Auto</p>         
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#cars">Vehicules</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="login_btn">LOGIN</button>
+    </header>
+            
+            <div class="container">
+                <div class="texte">
+                    <h2><span>N°1 De l'automobile</span> Sénegalais<br>Spécialiste véhicules <span>Sportifs & Luxueux</span></h2>
+                    <p>Achat, vente et conseil de tout véhicule luxueux, sportif grâce
+                        à une équipe de professionnels. Faire confiance à AUTOPRO, c'est 
+                        l'assurance d'un suivi et service de qualité haut de gamme</p>
+                    <a href="mailto:contact@autopro.com">Nous contacter</a>
+                </div>
+                <div class="imgBox">
+                    <img src="Media/ferari.png" class="ferari">
+                </div>
+            </div>
+            <ul class="catalogue">
+                <li><img src="Media/ferari.png" onclick="imgSlider('Media/ferari.png')"></li>
+                <li><img src="Media/Lambo.png"onclick="imgSlider('Media/Lambo.png')"></li>
+                <li><img src="Media/amg.png"onclick="imgSlider('Media/amg.png')"></li>
+                <li><img src="Media/bentley.png"onclick="imgSlider('Media/bentley.png')"></li>
+            </ul>
+            <ul class="reseau">
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="Media/fb.png"></a></li>
+                <li><a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="Media/insta.png"></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><img src="Media/youtube.png"></a></li>
+            </ul>
+            </section>
+             <!-- section vehicule -->
+
+    <section id="cars">
+        <h1 class="section_title">Nos vehicules</h1>
+        <div class="images">
+            <ul>
+                <li class="car">
+                   <div>
+                       <img src="images/car1.jpg" alt="">
+                   </div>
+                   <span>LAMBORGHINI</span>
+                   <span class="prix">2.000.000$</span>
+                   <a href="#">ACHETER MAINTENANT</a>
+                </li>
+                <li class="car">
+                    <div>
+                        <img src="images/bugatti.jpg" alt="">
+                    </div>
+                    <span>BUGATTI</span>
+                    <span class="prix">12.000.000.000$</span>
+                    <a href="#">ACHETER MAINTENANT</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="images/dodge.jpg" alt="">
+                    </div>
+                    <span>DODGE</span>
+                    <span class="prix">15.000.000$</span>
+                    <a href="#">ACHETER MAINTENANT</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="images/mercedes.webp" alt="">
+                    </div>
+                    <span>MERCEDES</span>
+                    <span class="prix">300.000$</span>
+                    <a href="#">ACHETER MAINTENANT</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="images/ferari.png" alt="">
+                    </div>
+                    <span>FERRARI</span>
+                    <span class="prix">8.000.000.000$</span>
+                    <a href="#">ACHETER MAINTENANT</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="images/bmw.jpg" alt="">
+                    </div>
+                    <span>BMW</span>
+                    <span class="prix">50.000.000$</span>
+                    <a href="#">ACHETER MAINTENANT</a>
+                 </li>
+            </ul>
+        </div>
+    </section>
+
+      <!-- section services -->
+
+    <section id="services">
+        <h1 class="section_title">Nos Services</h1>
+        <div class="list_services">
+            <div class="service">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Dépannage</h3>
+                <p>Nous sommes spécialisés dans l'assistance, dépannage et remorquage automobile.
+                    Nous effectuons le dépannage sur place pour les petites pannes, ouverture de porte, batterie ou crevaison.
+                    Nous assurons le remorquage de tous types de véhicules, camping-car, véhicule de prestige et de collection, limousine, utilitaire, moto et remorque.</p>
+                 <a href="https://www.arecodakar.com/Nos_Services:Depannage" target="_blank" class="read_more">Lire Plus</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Dépannage</h3>
+                <p>Panne, accident, vol ou tentative de vol, crevaison, panne ou erreur de carburant, perte ou vol des clés du véhicule… De nombreuses situations peuvent entraîner l'immobilisation de votre véhicule. Comment réagir ? Quel prix pour un dépannage ou un remorquage auto, et quel remboursement de la part de votre assurance ? Découvrez ici toutes nos réponses.</p>
+                 <a href="https://www.europ-assistance.fr/fr/conseils/ce-quil-faut-savoir-sur-le-depannage-et-le-remorquage-de-votre-auto" target="_blank" class="read_more">Lire Plus</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Dépannage</h3>
+                <p>le mécanicien réalise alors un diagnostic et, si cela est possible, des réparations dans le but de permettre au conducteur de reprendre la route au plus tôt. Si l'espace situé autour du véhicule ne permet pas au mécanicien de réaliser ces réparations dans les meilleures conditions, celui-ci peut être amené à devoir déplacer le véhicule en panne jusqu'à l'aire de repos la plus proche. </p>
+                 <a href="https://www.ornikar.com/code/cours/usagers/quotidien/vehicules-remorquage-depannage" target="_blank" class="read_more">Lire Plus</a>
+            </div>
+        </div>
+    </section>
+    
+   <!-- section contact -->
+
+   <section id="contact">
+    <h1 class="section_title">Nos Services</h1>
+    <div class="localisation_contact_div">
+        <div class="localisation">
+            <h3>Notre Adresse</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11726.178586821265!2d-17.452310749590456!3d14.697336568890362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2ssn!4v1688897100036!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="form_contact">
+            <h3>Envoyer un message</h3>
+            <form action="#">
+                <input type="text"placeholder="Nom">
+                <input type="email"placeholder="Adresse Mail">
+                <input type="text"placeholder="Objet">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </div>
+</section>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.ferari').src = anything;
+            }
+            function changeCouleurCercle(color){
+                const cercle = document.querySelector('.cercle');
+                cercle.style.background = color;
+            }
+
+        </script>
+    </body>
+</html>
